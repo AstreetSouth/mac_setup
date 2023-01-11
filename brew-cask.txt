@@ -1,0 +1,7 @@
+==> Casks
+alfred			firefox			rectangle
+alt-tab			insomnia		slack
+bitwarden		iterm2			stats
+dbeaver-community	kap			sublime-text
+discord			keepingyouawake		visual-studio-code
+docker			masscode

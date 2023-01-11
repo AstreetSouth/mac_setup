@@ -1,0 +1,6 @@
+==> Formulae
+autoconf	git		openssl@1.1	pyenv
+ca-certificates	m4		pcre2		readline
+gettext		nvm		pkg-config	terraform
+
+some of these are pre installed by mac OS
