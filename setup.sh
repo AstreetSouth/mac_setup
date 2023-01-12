@@ -24,10 +24,11 @@ brew update
 
 autoload bashcompinit && bashcompinit
 
+
 # install homebrew formulae
-
 # install homebrew casks
-
+--to run installion on batch of casks, use the following:
+	xargs brew install < brew-casks.txt
 
 --check git installed
 git --version
