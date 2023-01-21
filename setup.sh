@@ -58,3 +58,29 @@ To create an SSH key, run the ssh-keygen command in a terminal window. For examp
 
 ssh-keygen -t rsa -b 4096 -C "Me MyName (MyDevice) <me@mydomain.com>"
 
+
+----pyenv setup
+https://github.com/pyenv/pyenv  
+
+--install
+brew update
+brew install pyenv
+
+--set up shell env for pyenv
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+
+--restart shell
+exec "$SHELL"
+
+--show installed versions
+pyenv install --list shows available version for install
+pyenv install 3.10
+pyenv versions --shows installed version
+pyenv global 3.10 --will set this version as the current global version
+--use the selected version
+pyenv exec python -m venv .venv
+  this will create a virtual environment in a folder called .venv
+
+
