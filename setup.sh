@@ -65,6 +65,7 @@ https://github.com/pyenv/pyenv
 --install
 brew update
 brew install pyenv
+brew install pyenv-virtualenv
 
 --set up shell env for pyenv
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
