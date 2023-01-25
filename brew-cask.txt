@@ -5,3 +5,4 @@ bitwarden		iterm2			stats
 dbeaver-community	kap			sublime-text
 discord			keepingyouawake		visual-studio-code
 docker			masscode		itsycal
+awscli
